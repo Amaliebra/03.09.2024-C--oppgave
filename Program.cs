@@ -15,5 +15,9 @@ class Program
         Console.WriteLine(myWords);
         Console.WriteLine(myNumber);
         Console.WriteLine(myLetter);
+
+        int[] thisArray = { 1, 2, 3, 4, 5 };
+        for (int i = 0; i <= 5; i++) ;
+
     }
 }
