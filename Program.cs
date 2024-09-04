@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Runtime.InteropServices;
 
 namespace _03._09._2024_C__oppgave;
 
@@ -16,8 +17,15 @@ class Program
         Console.WriteLine(myNumber);
         Console.WriteLine(myLetter);
 
-        int[] thisArray = { 1, 2, 3, 4, 5 };
+        int[] theIntArray = { 1, 2, 3, 4, 5 };
         for (int i = 0; i <= 5; i++) ;
+
+        string[] theStringArray = { "cool", "waffle", "Grim" };
+        foreach (string i in theStringArray)
+        {
+            Console.WriteLine(i);
+        }
+
 
     }
 }
