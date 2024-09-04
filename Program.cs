@@ -26,6 +26,17 @@ class Program
             Console.WriteLine(i);
         }
 
+        List<string> thisList = new List<string>();
+        thisList.Add("list element1");
+        thisList.Add("list element2");
+        foreach (string thisOne in thisList)
+        {
+            Console.WriteLine(thisOne);
+        }
+
+
+
 
     }
 }
+
