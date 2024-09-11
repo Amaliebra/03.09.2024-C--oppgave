@@ -1,9 +1,13 @@
 ﻿using System.Drawing;
+using System.Reflection.Metadata.Ecma335;
 using System.Runtime.InteropServices;
 
 namespace _03._09._2024_C__oppgave;
 
+
 class Program
+
+
 {
     static void Main(string[] args)
     {
@@ -40,6 +44,22 @@ class Program
             Console.WriteLine(thisOne);
         }
 
+        //Ekstra oppgaver 
+
+        //Oppgave 1
+        //Main scope
+        int A = 50;
+        int B = 100;
+        int result = AddingUp(A, B);
+        Console.WriteLine(A);
+        Console.WriteLine(B);
+        Console.WriteLine("AddingUp");
+    }
+    //Outside mainscope
+    int AddingUp = (int A, int B) 
+    {
+        int sum = a + b;
+        return sum;
     }
 }
 
