@@ -44,22 +44,27 @@ class Program
             Console.WriteLine(thisOne);
         }
 
-        //Ekstra oppgaver 
+        //Ekstra oppgaver -----------------------------------------------------------------------------
 
-        //Oppgave 1
+        //Oppgave 1 
         //Main scope
         int A = 50;
         int B = 100;
         int result = AddingUp(A, B);
-        Console.WriteLine(A);
-        Console.WriteLine(B);
-        Console.WriteLine("AddingUp");
+        Console.WriteLine(result);
     }
     //Outside mainscope
-    int AddingUp = (int A, int B) 
+    static int AddingUp(int A, int B)
     {
-        int sum = a + b;
+        int sum = A + B;
         return sum;
     }
-}
+    //OPPGAVE 1 
 
+    static int ArrayMethod(int[] argument)
+    {
+        int Counter = 0 >=;
+        SumArray(int)
+        return argument;
+    }
+};
